@@ -1,0 +1,22 @@
+PODS:
+  - SQLite.swift (0.13.0):
+    - SQLite.swift/standard (= 0.13.0)
+  - SQLite.swift/standard (0.13.0)
+  - SwiftSoup (2.3.3)
+
+DEPENDENCIES:
+  - SQLite.swift (~> 0.13.0)
+  - SwiftSoup
+
+SPEC REPOS:
+  trunk:
+    - SQLite.swift
+    - SwiftSoup
+
+SPEC CHECKSUMS:
+  SQLite.swift: 8add701609fd0ef78d097dcc75d20a9782e6f5fc
+  SwiftSoup: 8e4844e785a975744f2c2606f8b3844ef67eb259
+
+PODFILE CHECKSUM: 8c18aa2c180fa815c11d71c24086ae51e9ae2dfe
+
+COCOAPODS: 1.11.2
