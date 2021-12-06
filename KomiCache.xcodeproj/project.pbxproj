@@ -7,45 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B8159CA827301E79002F2B30 /* ChapterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8159CA727301E79002F2B30 /* ChapterView.swift */; };
-		B8159CAA27301E8C002F2B30 /* IndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8159CA927301E8C002F2B30 /* IndexView.swift */; };
-		B8159CAC27301E9F002F2B30 /* ChapterListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8159CAB27301E9F002F2B30 /* ChapterListing.swift */; };
-		B832F1E62730928D00EE8A2C /* OldCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B832F1E52730928D00EE8A2C /* OldCache.swift */; };
-		B84CB890272DB87A00B4B380 /* KomiCacheApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84CB88F272DB87A00B4B380 /* KomiCacheApp.swift */; };
-		B84CB892272DB87A00B4B380 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84CB891272DB87A00B4B380 /* ContentView.swift */; };
-		B84CB894272DB87C00B4B380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B84CB893272DB87C00B4B380 /* Assets.xcassets */; };
-		B84CB897272DB87C00B4B380 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B84CB896272DB87C00B4B380 /* Preview Assets.xcassets */; };
-		B858E59A272EF1C500E21CB9 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = B858E599272EF1C500E21CB9 /* Source.swift */; };
-		B858E59C272F203100E21CB9 /* KomiSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B858E59B272F203100E21CB9 /* KomiSource.swift */; };
-		B8993B7F2732EA5F001A85D4 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8993B7E2732EA5F001A85D4 /* Cache.swift */; };
-		C5F58E781451934789BB652E /* Pods_KomiCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37125A2F17F24E2D52F36A5B /* Pods_KomiCache.framework */; };
+		B85508152735CA110078D6FB /* KomiCacheIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85508142735CA110078D6FB /* KomiCacheIOSApp.swift */; };
+		B85508192735CA140078D6FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B85508182735CA140078D6FB /* Assets.xcassets */; };
+		B855081C2735CA140078D6FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B855081B2735CA140078D6FB /* Preview Assets.xcassets */; };
+		B85508202735CA470078D6FB /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = B858E599272EF1C500E21CB9 /* Source.swift */; };
+		B85508212735CA470078D6FB /* OldCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B832F1E52730928D00EE8A2C /* OldCache.swift */; };
+		B85508222735CA470078D6FB /* ChapterListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8159CAB27301E9F002F2B30 /* ChapterListing.swift */; };
+		B85508232735CA470078D6FB /* KomiSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B858E59B272F203100E21CB9 /* KomiSource.swift */; };
+		B85508242735CA470078D6FB /* IndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8159CA927301E8C002F2B30 /* IndexView.swift */; };
+		B85508252735CA470078D6FB /* ChapterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8159CA727301E79002F2B30 /* ChapterView.swift */; };
+		B85508262735CA470078D6FB /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8993B7E2732EA5F001A85D4 /* Cache.swift */; };
+		B85508272735CA470078D6FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84CB891272DB87A00B4B380 /* ContentView.swift */; };
+		B8EA257F275B142000DCEED0 /* ZoomableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EA257E275B142000DCEED0 /* ZoomableScrollView.swift */; };
+		B99C4B19D04DBA7DCAE27626 /* Pods_KomiCacheIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCFFBC521FACE6A3616C56C /* Pods_KomiCacheIOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		37125A2F17F24E2D52F36A5B /* Pods_KomiCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KomiCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E3087081FAA5FD904380E39 /* Pods-KomiCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KomiCache.debug.xcconfig"; path = "Target Support Files/Pods-KomiCache/Pods-KomiCache.debug.xcconfig"; sourceTree = "<group>"; };
+		6FCFFBC521FACE6A3616C56C /* Pods_KomiCacheIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KomiCacheIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9052B67517C52BB7D49BA144 /* Pods-KomiCacheIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KomiCacheIOS.release.xcconfig"; path = "Target Support Files/Pods-KomiCacheIOS/Pods-KomiCacheIOS.release.xcconfig"; sourceTree = "<group>"; };
 		B8159CA727301E79002F2B30 /* ChapterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterView.swift; sourceTree = "<group>"; };
 		B8159CA927301E8C002F2B30 /* IndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexView.swift; sourceTree = "<group>"; };
 		B8159CAB27301E9F002F2B30 /* ChapterListing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterListing.swift; sourceTree = "<group>"; };
 		B832F1E52730928D00EE8A2C /* OldCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldCache.swift; sourceTree = "<group>"; };
-		B84CB88C272DB87A00B4B380 /* KomiCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KomiCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B84CB88F272DB87A00B4B380 /* KomiCacheApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KomiCacheApp.swift; sourceTree = "<group>"; };
-		B84CB891272DB87A00B4B380 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B84CB893272DB87C00B4B380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B84CB896272DB87C00B4B380 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B84CB898272DB87C00B4B380 /* KomiCache.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KomiCache.entitlements; sourceTree = "<group>"; };
+		B842B5F2275466F70099AD60 /* KomiCacheIOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KomiCacheIOS.entitlements; sourceTree = "<group>"; };
+		B84CB891272DB87A00B4B380 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../KomiCache/ContentView.swift; sourceTree = "<group>"; };
+		B85508122735CA110078D6FB /* KomiCacheIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KomiCacheIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B85508142735CA110078D6FB /* KomiCacheIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KomiCacheIOSApp.swift; sourceTree = "<group>"; };
+		B85508182735CA140078D6FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B855081B2735CA140078D6FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B858E599272EF1C500E21CB9 /* Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
 		B858E59B272F203100E21CB9 /* KomiSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KomiSource.swift; sourceTree = "<group>"; };
 		B8993B7E2732EA5F001A85D4 /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
-		CA7677335DCC2B94F794752C /* Pods-KomiCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KomiCache.release.xcconfig"; path = "Target Support Files/Pods-KomiCache/Pods-KomiCache.release.xcconfig"; sourceTree = "<group>"; };
+		B8EA257E275B142000DCEED0 /* ZoomableScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZoomableScrollView.swift; path = ../../../.Trash/ZoomableScrollView.swift; sourceTree = "<group>"; };
+		BD35A9AB05B513EC3C462F9D /* Pods-KomiCacheIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KomiCacheIOS.debug.xcconfig"; path = "Target Support Files/Pods-KomiCacheIOS/Pods-KomiCacheIOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B84CB889272DB87A00B4B380 /* Frameworks */ = {
+		B855080F2735CA110078D6FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5F58E781451934789BB652E /* Pods_KomiCache.framework in Frameworks */,
+				B99C4B19D04DBA7DCAE27626 /* Pods_KomiCacheIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,8 +57,8 @@
 		517E490AE8604894B9C48431 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5E3087081FAA5FD904380E39 /* Pods-KomiCache.debug.xcconfig */,
-				CA7677335DCC2B94F794752C /* Pods-KomiCache.release.xcconfig */,
+				BD35A9AB05B513EC3C462F9D /* Pods-KomiCacheIOS.debug.xcconfig */,
+				9052B67517C52BB7D49BA144 /* Pods-KomiCacheIOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -64,7 +66,7 @@
 		A78CA92CE7A2F727F935E8B6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				37125A2F17F24E2D52F36A5B /* Pods_KomiCache.framework */,
+				6FCFFBC521FACE6A3616C56C /* Pods_KomiCacheIOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -72,7 +74,7 @@
 		B84CB883272DB87A00B4B380 = {
 			isa = PBXGroup;
 			children = (
-				B84CB88E272DB87A00B4B380 /* KomiCache */,
+				B85508132735CA110078D6FB /* KomiCacheIOS */,
 				B84CB88D272DB87A00B4B380 /* Products */,
 				517E490AE8604894B9C48431 /* Pods */,
 				A78CA92CE7A2F727F935E8B6 /* Frameworks */,
@@ -82,15 +84,15 @@
 		B84CB88D272DB87A00B4B380 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B84CB88C272DB87A00B4B380 /* KomiCache.app */,
+				B85508122735CA110078D6FB /* KomiCacheIOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B84CB88E272DB87A00B4B380 /* KomiCache */ = {
+		B85508132735CA110078D6FB /* KomiCacheIOS */ = {
 			isa = PBXGroup;
 			children = (
-				B84CB88F272DB87A00B4B380 /* KomiCacheApp.swift */,
+				B842B5F2275466F70099AD60 /* KomiCacheIOS.entitlements */,
 				B84CB891272DB87A00B4B380 /* ContentView.swift */,
 				B8159CAB27301E9F002F2B30 /* ChapterListing.swift */,
 				B8159CA927301E8C002F2B30 /* IndexView.swift */,
@@ -99,17 +101,18 @@
 				B832F1E52730928D00EE8A2C /* OldCache.swift */,
 				B858E599272EF1C500E21CB9 /* Source.swift */,
 				B858E59B272F203100E21CB9 /* KomiSource.swift */,
-				B84CB893272DB87C00B4B380 /* Assets.xcassets */,
-				B84CB898272DB87C00B4B380 /* KomiCache.entitlements */,
-				B84CB895272DB87C00B4B380 /* Preview Content */,
+				B8EA257E275B142000DCEED0 /* ZoomableScrollView.swift */,
+				B85508142735CA110078D6FB /* KomiCacheIOSApp.swift */,
+				B85508182735CA140078D6FB /* Assets.xcassets */,
+				B855081A2735CA140078D6FB /* Preview Content */,
 			);
-			path = KomiCache;
+			path = KomiCacheIOS;
 			sourceTree = "<group>";
 		};
-		B84CB895272DB87C00B4B380 /* Preview Content */ = {
+		B855081A2735CA140078D6FB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				B84CB896272DB87C00B4B380 /* Preview Assets.xcassets */,
+				B855081B2735CA140078D6FB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -117,23 +120,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B84CB88B272DB87A00B4B380 /* KomiCache */ = {
+		B85508112735CA110078D6FB /* KomiCacheIOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B84CB89B272DB87C00B4B380 /* Build configuration list for PBXNativeTarget "KomiCache" */;
+			buildConfigurationList = B855081D2735CA140078D6FB /* Build configuration list for PBXNativeTarget "KomiCacheIOS" */;
 			buildPhases = (
-				1473963A29096C45D76AEA20 /* [CP] Check Pods Manifest.lock */,
-				B84CB888272DB87A00B4B380 /* Sources */,
-				B84CB889272DB87A00B4B380 /* Frameworks */,
-				B84CB88A272DB87A00B4B380 /* Resources */,
-				D82D2F828890EF458B2A502E /* [CP] Embed Pods Frameworks */,
+				C130FFFA5241F8B60CC9BA0F /* [CP] Check Pods Manifest.lock */,
+				B855080E2735CA110078D6FB /* Sources */,
+				B855080F2735CA110078D6FB /* Frameworks */,
+				B85508102735CA110078D6FB /* Resources */,
+				118B1EA292F6C827A7C1CBAF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = KomiCache;
-			productName = KomiCache;
-			productReference = B84CB88C272DB87A00B4B380 /* KomiCache.app */;
+			name = KomiCacheIOS;
+			productName = KomiCacheIOS;
+			productReference = B85508122735CA110078D6FB /* KomiCacheIOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,7 +149,7 @@
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					B84CB88B272DB87A00B4B380 = {
+					B85508112735CA110078D6FB = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
@@ -164,25 +167,42 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B84CB88B272DB87A00B4B380 /* KomiCache */,
+				B85508112735CA110078D6FB /* KomiCacheIOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B84CB88A272DB87A00B4B380 /* Resources */ = {
+		B85508102735CA110078D6FB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B84CB897272DB87C00B4B380 /* Preview Assets.xcassets in Resources */,
-				B84CB894272DB87C00B4B380 /* Assets.xcassets in Resources */,
+				B855081C2735CA140078D6FB /* Preview Assets.xcassets in Resources */,
+				B85508192735CA140078D6FB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1473963A29096C45D76AEA20 /* [CP] Check Pods Manifest.lock */ = {
+		118B1EA292F6C827A7C1CBAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KomiCacheIOS/Pods-KomiCacheIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KomiCacheIOS/Pods-KomiCacheIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KomiCacheIOS/Pods-KomiCacheIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C130FFFA5241F8B60CC9BA0F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -197,46 +217,30 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KomiCache-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-KomiCacheIOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D82D2F828890EF458B2A502E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KomiCache/Pods-KomiCache-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KomiCache/Pods-KomiCache-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KomiCache/Pods-KomiCache-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B84CB888272DB87A00B4B380 /* Sources */ = {
+		B855080E2735CA110078D6FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B858E59C272F203100E21CB9 /* KomiSource.swift in Sources */,
-				B8993B7F2732EA5F001A85D4 /* Cache.swift in Sources */,
-				B8159CAA27301E8C002F2B30 /* IndexView.swift in Sources */,
-				B832F1E62730928D00EE8A2C /* OldCache.swift in Sources */,
-				B84CB892272DB87A00B4B380 /* ContentView.swift in Sources */,
-				B8159CAC27301E9F002F2B30 /* ChapterListing.swift in Sources */,
-				B84CB890272DB87A00B4B380 /* KomiCacheApp.swift in Sources */,
-				B858E59A272EF1C500E21CB9 /* Source.swift in Sources */,
-				B8159CA827301E79002F2B30 /* ChapterView.swift in Sources */,
+				B8EA257F275B142000DCEED0 /* ZoomableScrollView.swift in Sources */,
+				B85508242735CA470078D6FB /* IndexView.swift in Sources */,
+				B85508262735CA470078D6FB /* Cache.swift in Sources */,
+				B85508232735CA470078D6FB /* KomiSource.swift in Sources */,
+				B85508212735CA470078D6FB /* OldCache.swift in Sources */,
+				B85508152735CA110078D6FB /* KomiCacheIOSApp.swift in Sources */,
+				B85508272735CA470078D6FB /* ContentView.swift in Sources */,
+				B85508222735CA470078D6FB /* ChapterListing.swift in Sources */,
+				B85508252735CA470078D6FB /* ChapterView.swift in Sources */,
+				B85508202735CA470078D6FB /* Source.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,59 +362,74 @@
 			};
 			name = Release;
 		};
-		B84CB89C272DB87C00B4B380 /* Debug */ = {
+		B855081E2735CA140078D6FB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E3087081FAA5FD904380E39 /* Pods-KomiCache.debug.xcconfig */;
+			baseConfigurationReference = BD35A9AB05B513EC3C462F9D /* Pods-KomiCacheIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = KomiCache/KomiCache.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_ENTITLEMENTS = KomiCacheIOS/KomiCacheIOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"KomiCache/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"KomiCacheIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 29ZQB5VV8B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = desgroup.KomiCache;
+				PRODUCT_BUNDLE_IDENTIFIER = desgroup.KomiCacheIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B84CB89D272DB87C00B4B380 /* Release */ = {
+		B855081F2735CA140078D6FB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA7677335DCC2B94F794752C /* Pods-KomiCache.release.xcconfig */;
+			baseConfigurationReference = 9052B67517C52BB7D49BA144 /* Pods-KomiCacheIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = KomiCache/KomiCache.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_ENTITLEMENTS = KomiCacheIOS/KomiCacheIOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"KomiCache/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"KomiCacheIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 29ZQB5VV8B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = desgroup.KomiCache;
+				PRODUCT_BUNDLE_IDENTIFIER = desgroup.KomiCacheIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -426,11 +445,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B84CB89B272DB87C00B4B380 /* Build configuration list for PBXNativeTarget "KomiCache" */ = {
+		B855081D2735CA140078D6FB /* Build configuration list for PBXNativeTarget "KomiCacheIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B84CB89C272DB87C00B4B380 /* Debug */,
-				B84CB89D272DB87C00B4B380 /* Release */,
+				B855081E2735CA140078D6FB /* Debug */,
+				B855081F2735CA140078D6FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

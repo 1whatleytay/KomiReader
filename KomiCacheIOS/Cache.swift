@@ -115,7 +115,19 @@ class Cache : ObservableObject {
     }
     
     init() throws {
-        self.db = try Connection("cache.sqlite3")
+        //"cache.sqlite3"
+        let urls = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)
+        guard var url = urls.first else { throw NSError() }
+        
+        try FileManager.default.createDirectory(at: url, withIntermediateDirectories: true)
+        
+        url.appendPathComponent("cache.sqlite3")
+        
+        if !FileManager.default.fileExists(atPath: url.path) {
+            FileManager.default.createFile(atPath: url.path, contents: nil)
+        }
+        
+        self.db = try Connection(url.path)
         
         try createChapters()
         try createImages()

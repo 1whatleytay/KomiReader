@@ -39,6 +39,10 @@ class KomiSource : Source {
                 
                 let value = Chapter(link: href, name: name, chapter: chapterNumber)
                 
+                if !href.contains("\(chapterNumber)") {
+                    continue
+                }
+                
                 index.append(value)
             }
             
@@ -76,17 +80,29 @@ class KomiSource : Source {
             
             guard let doc = try? SwiftSoup.parse(text) else { return err() }
             
-            guard let elements = try? doc.getElementsByClass("aligncenter") else { return err() }
+            guard let alignElements = try? doc.getElementsByClass("aligncenter") else { return err() }
+            guard let figureElements = try? doc.getElementsByClass("wp-block-image") else { return err() }
             
             var urls = [URL]()
             
-            for element in elements {
+            for element in alignElements {
                 guard element.tagName() == "img" else { continue }
                 
                 guard let source = try? element.attr("src") else { continue }
                 guard let url = URL(string: source) else { continue }
                 
                 urls.append(url)
+            }
+            
+            for element in figureElements {
+                guard let images = try? element.getElementsByTag("img") else { continue }
+                
+                for image in images {
+                    guard let source = try? image.attr("src") else { continue }
+                    guard let url = URL(string: source) else { continue }
+                    
+                    urls.append(url)
+                }
             }
             
             callback(urls.count)

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1240"
+   LastUpgradeVersion = "1310"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E3358F47FA901E074B34ABCC39513CCD"
-               BuildableName = "Pods_KomiCache.framework"
-               BlueprintName = "Pods-KomiCache"
+               BlueprintIdentifier = "7F16232104CE141D531E9A041D6D813B"
+               BuildableName = "Pods_KomiCacheIOS.framework"
+               BlueprintName = "Pods-KomiCacheIOS"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

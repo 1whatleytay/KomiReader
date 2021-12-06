@@ -1,3 +1,4 @@
+import CoreGraphics
 import Foundation
 
 let indexFileLocation = "index-cache.dat"
@@ -78,6 +79,7 @@ func dataToImage(data: Data) -> CGImage? {
         return nil
     }
 
+    // there must be a better way to do this...
     if let image = CGImage(
         jpegDataProviderSource: dataProvider,
         decode: nil,
